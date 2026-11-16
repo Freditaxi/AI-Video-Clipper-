@@ -1,0 +1,7 @@
+faster-whisper==1.2.1
+fastembed==0.9.1
+huggingface-hub==1.33.0
+imageio-ffmpeg==0.8.1
+yt-dlp[default]==2026.10.26
+httpx[socks]==0.28.1
+av==16.1.0

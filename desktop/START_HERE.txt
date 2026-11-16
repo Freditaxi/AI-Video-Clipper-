@@ -1,0 +1,27 @@
+YOUR INDEPENDENT AI CLIPPER
+No vidIQ account, subscription, or credits required.
+
+1. Install Python 3.12 (64-bit):
+   https://www.python.org/downloads/
+   Check "Add Python to PATH" when installing.
+
+2. Right-click this ZIP and choose "Extract All".
+
+3. Inside the extracted folder, double-click START_WINDOWS.bat.
+   Leave its terminal window open.
+
+4. Your browser opens the local app at:
+   http://127.0.0.1:8765
+
+5. Choose a video file. For your first test, select a short
+   section and use "Fast - Tiny English". Click Create my clips.
+
+The first setup downloads free software and model files.
+Later runs reuse those models. Your computer does the work.
+You do not need to sign in or enter a payment method.
+
+The app runs on your laptop, not directly on an iPhone.
+MP4 clips can be transferred to your phone after creation.
+This release exports clips; you upload them yourself.
+
+Read README.md for detailed help and known limitations.

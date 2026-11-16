@@ -18,8 +18,8 @@ Uses Canvas captureStream, Web Audio, and MediaRecorder. MP4 is preferred when s
 
 The app does not upload videos and has no server-side storage or credentials. Source media, selections, and exports are kept only in memory for the current session. Download finished files before refreshing/closing. The user must obtain source footage separately.
 
-## Not connected
-Automatic AI highlight identification, speech transcription, face tracking, YouTube URL downloads, and direct YouTube/Instagram publishing are not implemented. Time-based batch selections are explicitly labeled; subtitle import is not automatic transcription.
+## AI Studio
+The /studio route opens the owner-private AI workspace at https://creator-spotlight-ai-studio.imperative-c-8539.chatgpt.site. It uses the visitor's vidIQ connection for YouTube/public video imports, captioned AI highlight generation, YouTube transcript retrieval, and reviewed YouTube/Instagram publishing. Costs and consent are shown in the workspace. The Vercel page continues to edit local files on-device. Browser-local batch selections are time-based; its SRT import is separate from cloud speech captioning.
 
 ## Development and deployment
 Serve this directory with `python3 -m http.server 8765` and open localhost in a supported browser. No build dependencies. The lowercase root `index.html` is required for Vercel static hosting. `vercel.json` defines security and caching headers. Deploy only the existing ai-video-clipper project, linked to Freditaxi/AI-Video-Clipper-.

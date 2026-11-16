@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "AI Video Clipper",
+  "short_name": "AI Clipper",
+  "description": "Edit videos, create vertical clips, and open your private AI Studio.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#101216",
+  "theme_color": "#101216",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Studio",
+      "short_name": "AI Studio",
+      "url": "/studio",
+      "description": "Open the private AI clipping and publishing workspace."
+    }
+  ],
+  "prefer_related_applications": false
+}

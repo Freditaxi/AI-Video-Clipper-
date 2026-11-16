@@ -26,3 +26,6 @@ Serve this directory with `python3 -m http.server 8765` and open localhost in a 
 
 ## Verification
 Use a synthetic video with known audio and duration. Import it, trim a middle segment, export, download, and inspect the output streams, dimensions, duration, and non-silent audio. Also check invalid ranges, SRT caption rendering, crop/fit, queue export, cancellation, and phone-width layout.
+
+## Home Screen and desktop installation
+The root manifest, 192/512 PNG app icons, Apple touch icon and standalone metadata support browser installation. The Install app button uses the browser install prompt when available and otherwise shows platform instructions. A service worker keeps only the public local-editor shell available offline; /studio, authentication, API responses and video files are never cached. AI Studio requires internet and its own sign-in. No installation happens without the visitor confirming the browser prompt.
